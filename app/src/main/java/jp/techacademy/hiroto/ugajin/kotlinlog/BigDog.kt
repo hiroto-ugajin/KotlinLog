@@ -8,6 +8,7 @@ class BigDog: Dog {
 
     override fun say() {
             super.say()
-            Log.d("kotlintest", "大好きな犬です。")
+            Log.d("kotlintest", name+
+                "は大きな犬です。")
     }
 }

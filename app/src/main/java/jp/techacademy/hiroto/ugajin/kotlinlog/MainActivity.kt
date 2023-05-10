@@ -9,13 +9,23 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-    val human1 = Human("浩人", 70)
-        human1.hobby = "プログラム"
-        val human2 = Human("光江", 72)
-        human2.hobby = "料理"
+      /*  val dog = Dog("ポチ", 3)
+        dog.say()
 
-    human1.say()
+        val dog2 = Dog("ハチ", 8)
+        dog2.say()
+
+        val bigdog = BigDog("ヨーゼフ", 15)
+        bigdog.say()
+        dog.move()
+        Log.d("kotlintest", "犬の名前は"+bigdog.name+"、犬の年齢は"+bigdog.age+"です。")*/
+
+        val human1 = Human ("Hiroto", 70)
+        human1.hobby = "programing"
+        human1.say()
         human1.think()
+        val human2 = Human("Mitsue", 72)
+        human2.hobby = "cocking"
         human2.say()
         human2.think()
     }
