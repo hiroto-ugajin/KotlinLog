@@ -20,12 +20,12 @@ class MainActivity : AppCompatActivity() {
         dog.move()
         Log.d("kotlintest", "犬の名前は"+bigdog.name+"、犬の年齢は"+bigdog.age+"です。")*/
 
-        val human1 = Human ("Hiroto", 70)
-        human1.hobby = "programing"
+        val human1 = Human ("Hiroto", 70, "programing")
+//        human1.hobby = "programing"
         human1.say()
         human1.think()
-        val human2 = Human("Mitsue", 72)
-        human2.hobby = "cocking"
+        val human2 = Human("Mitsue", 72, "cocking")
+//        human2.hobby = "cocking"
         human2.say()
         human2.think()
     }
